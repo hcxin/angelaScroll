@@ -1,5 +1,5 @@
 /**
- * Created by hcxin on December 16h, 2017.to celebrate angela's two years old birthday.
+ * Created by hcxin on December 16h, 2017.to celebrate angela's two-year-old birthday.
  */
 ;(function ($) {
     var defaults = {
