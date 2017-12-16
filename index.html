@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>滚动无参数</title>
+    <link rel="stylesheet" href="css/angelaScroll.css">
+    <style>
+        .edge-flag {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .edge-bottom {
+            margin-top: 1900px;
+        }
+
+    </style>
+</head>
+<body style="height: 2000px;background-color: aqua;">
+<div class="edge-flag">
+    <p>顶部</p>
+</div>
+<div class="tool-bar" id="toolBar">
+    <button class="go-top-btn" id="topBtn">返回顶部</button>
+    <button class="go-bottom-btn" id="bottomBtn">回到低部</button>
+</div>
+
+<div class="edge-flag edge-bottom">
+    <p>低部</p>
+</div>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/angelaScroll.js"></script>
+<script>
+    $.angelaScroll();
+</script>
+</body>
+</html>
