@@ -31,17 +31,20 @@
 <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 <script src="js/angelaScroll.js"></script>
 <script>
-    $.angelaScroll({
-        topBtn: '#topBtn',
-        topSpeed: 1000,
-        topCallBack: function () {
-            console.log("到顶部了");
-        },
-        bottomBtn: '#bottomBtn',
-        bottomSpeed: 1000,
-        bottomCallBack: function () {
-            console.log("到底部了");
-        }
+    $(function () {
+        //初始化插件
+        $.angelaScroll({
+            topBtn: '#topBtn',
+            topSpeed: 1000,
+            topCallBack: function () {
+                console.log("到顶部了");
+            },
+            bottomBtn: '#bottomBtn',
+            bottomSpeed: 1000,
+            bottomCallBack: function () {
+                console.log("到底部了");
+            }
+        });
     });
 </script>
 </body>
