@@ -63,4 +63,4 @@ angelaScroll是一个依赖jquery的插件，为增强用户体验而开发，�
 ```
 
 ### 其他说明
-angela是我家猫咪的名字。
+angela是我家大猫咪的名字。
