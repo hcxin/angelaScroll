@@ -13,8 +13,11 @@ angelaScroll是一个依赖jquery的插件，为增强用户体验而开发，�
 可以直接用script标签引入。
 
 ```javascript
+<!-- 这是控制按钮位置的样式文件，可按需修改 -->
 <link rel="stylesheet" href="css/angelaScroll.css">
+<!-- 这是依赖 -->
 <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<!-- 这是我们的插件-->
 <script src="js/angelaScroll.js"></script>
 ```
 
@@ -43,11 +46,12 @@ angelaScroll是一个依赖jquery的插件，为增强用户体验而开发，�
     $(function () {
         //初始化插件
         $.angelaScroll({
-            topBtn: '#topBtn',
-            topSpeed: 1000,
-            topCallBack: function () {
+            topBtn: '#topBtn',//（按钮id，也可以用其他的选择器）
+            topSpeed: 1000,//滚动速度（ms）
+            topCallBack: function () {//这是回调函数
                 console.log("到顶部了");
             },
+            //同上
             bottomBtn: '#bottomBtn',
             bottomSpeed: 1000,
             bottomCallBack: function () {
